@@ -1,0 +1,135 @@
+/* CSS Document */
+
+.window {
+	border: 6px solid #51B1EC;
+	opacity: 0.8;
+	/*filter:alpha(opacity=80); */
+	width: 127px;
+	height: 82px;
+	z-index: 20;
+	position: absolute;
+	background-color: #F9F9F9;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0.5em;
+	font-size: 10pt;
+	border-radius: 10px;
+	
+}
+.window.active{ background-color:#B1B6C2;
+color:#000;
+border:5px solid #05567C;
+}
+	
+#help {
+	top: 61px;
+	left: 70px;
+	width: 12em;
+	height: 9em;
+	background-color: #CCC;
+	font-size: 8pt;
+}
+
+#ele800 {
+	top: 350px;
+	left: 50px;
+	border-style:inset solid;
+	
+	
+}
+#ele700 {
+	top: 350px;
+	left: 300px;
+	border-style:inset solid;
+}
+
+/* 100 240 380 520 660*/
+
+#ele604 {
+	top: 100px;
+	left: 550px;
+	border-style:inset solid;
+}
+#ele632 {
+	top: 225px;
+	left: 550px;
+	border-style:inset solid;
+}
+#ele635 {
+	top: 350px;
+	left: 550px;
+	border-style:inset solid;
+}
+#ele637 {
+	top: 475px;
+	left: 550px;
+	border-style:inset solid;
+}
+#ele639 {
+	top: 600px;
+	left: 550px;
+	border-style:inset solid;
+}
+
+
+#ele504 {
+	top: 100px;
+	left: 800px;
+	border-style:inset solid;
+}
+#ele531 {
+	top: 225px;
+	left: 800px;
+	border-style:inset solid;
+}
+#ele532 {
+	top: 350px;
+	left: 800px;
+	border-style:inset solid;
+}
+#coe538 {
+	top: 475px;
+	left: 800px;
+	border-style:inset solid;
+}
+#mth514 {
+	top: 600px;
+	left: 800px;
+	border-style:inset solid;
+}
+
+#ele302 {
+	top: 350px;
+	left: 1050px;
+	border-style:inset solid;
+}
+
+._jsPlumb_connector { z-index:4; }
+._jsPlumb_endpoint { z-index:5; }
+.hl { border:3px solid red; }
+
+button {
+	border: 0px;
+	padding: 3px 5px;
+	margin: 5px 5px;
+	border-radius: 5px;
+
+	cursor: pointer;
+	color: #fff;
+	background: #1663AF;
+	font-size: 12px;
+
+	-webkit-transition: 0.15s background ease;
+	   -moz-transition: 0.15s background ease;
+	    -ms-transition: 0.15s background ease;
+	     -o-transition: 0.15s background ease;
+	        transition: 0.15s background ease;
+			margin-left:90px;
+			margin-top:30px;
+}
+	button:hover {
+		background: #268AD5;
+	}
+	button:active {
+		background: #05487E;
+	}
